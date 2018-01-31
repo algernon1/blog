@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Main from '@/components/main'
-import Detail from '@/components/detail'
+import Main from '@/view/main'
+import Detail from '@/view/detail'
+import SubArticle from '@/view/subArticle'
 
 Vue.use(Router)
 
@@ -13,9 +14,14 @@ export default new Router({
       component: Main
     },
     {
-      path: '/detail',
+      path: '/detail/:id',
       name: 'Detail',
       component: Detail
+    },
+    {
+      path: '/subArticle',
+      name: 'SubArticle',
+      component: SubArticle
     }
   ]
 })

@@ -157,6 +157,8 @@ button {
   }
   .content {
     margin-bottom: 20px;
+    height:40px;
+    overflow:hidden;
   }
   .tips {
     text-align: center;
@@ -262,7 +264,7 @@ button {
   width: 100%;
   .prev,
   .next {
-    width: 50%;
+    width: 49%;
     display: inline-block;
     padding: 20px 0;
     cursor: pointer;

@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'  //./App.vue
 import router from './router'  //./router/index.js
+// import store  from './store/index'
+import store  from './store/store'//组件之间传值
+
+
 
 
 import './assets/style/main.scss';
@@ -28,6 +32,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  store,//使用store
   template: '<App></App>',//<App/>
   components: { 
   	App
