@@ -1,0 +1,18 @@
+{
+	"status":"0",
+	"msg":"",
+	"result":[
+		{
+			"articleId":"100",
+			"articleName":"我的第一个文章标题",
+			"articleContent":"我的第一篇文章内容",
+			"articleTime":"2017-01-01"
+		},
+		{
+			"articleId":"101",
+			"articleName":"我的第二个文章标题",
+			"articleContent":"我的第二篇文章内容",
+			"articleTime":"2017-01-01"
+		}
+	]
+}
